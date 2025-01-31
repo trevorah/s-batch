@@ -1,11 +1,30 @@
 {
   "name": "s-batch",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A transform stream that batches items into arrays",
+  "keywords": [
+    "web streams",
+    "streams",
+    "batch",
+    "TransformStream"
+  ],
+  "homepage": "https://github.com/trevorah/s-batch#readme",
+  "bugs": {
+    "url": "https://github.com/trevorah/s-batch/issues"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorah/s-batch.git"
+  },
   "license": "MIT",
-  "description": ""
+  "author": "Andy Trevorah <andy@trevorah.net>",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
 }
